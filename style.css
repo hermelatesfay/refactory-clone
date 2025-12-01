@@ -506,36 +506,6 @@ ul li a:hover{
                                 /* responsive design mobile, tablet, desktop */
 
 @media(max-width: 768px){
-    .mainContainer{
-        border:1px solid black;
-        height:70vh;
-        width:100vw;
-        background-image: url(https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg);
-        background-size: cover;
-    }
-    .container-hero h1{
-        color:white;
-        font-weight:bold; 
-        font-size: 30px;
-        text-align: center; 
-        text-shadow: white;
-        margin-top: -55px;
-         
-    }
-    .container-hero p{
-        text-align: center;
-        color:white;
-        font-size: 20px;
-        font-weight:800;
-        margin-top: -10px;
-    }
-    .btn{
-        padding:5px 30px;
-        font-size: 14px;
-        margin-right: 10px;
-        margin-top: 18px;
-        border-radius: 5px;
-        border:none;
-}
+    
 }
 
