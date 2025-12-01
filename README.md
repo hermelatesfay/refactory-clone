@@ -15,7 +15,7 @@ A clone of the Refactory Academt landing page built wth HTML and CSS.
 -Pixal-perfect clone of original website
 
 ## live Demo
-View live site
+[View live site] (https://hermelatesfay.github.io/refactory-clone/)
 
 ## Author
 Hermela Tesfay - Web Development Student
