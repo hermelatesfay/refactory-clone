@@ -18,4 +18,4 @@ A clone of the Refactory Academt landing page built wth HTML and CSS.
 View live site
 
 ## Author
-Hermela tesfay - Web Development Student
+Hermela Tesfay - Web Development Student
