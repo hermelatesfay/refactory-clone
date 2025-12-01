@@ -1,0 +1,541 @@
+/* Global styles */
+*{
+    /* background-color: rgb(200, 154, 243); */
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color:#333;
+}
+
+            
+         /* container for nav and hero */
+.mainContainer{
+    border:1px solid black;
+    height:95vh;
+    width:100vw;
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+}
+    /* tint for container */
+.tint{
+    border:1px solid black;
+    height:100vh;
+    width:100vw;
+    background-color: rgba(0,0,0,0.3);
+}
+    /* nav */
+.navbar{
+    position:fixed;
+    z-index:1000;
+    background-color: white;
+    height:9vh;
+    color:black; 
+}
+    /* nav container */
+.container{
+    padding:0 10px;
+    margin:0 auto;
+    width:100vw;
+    display:flex;
+} 
+    /* logo */
+.logo{
+    /* border:1px solid black; */
+    width:10%;
+    height:70px;
+    margin-left: 6%;
+    margin-top: 10px;
+}
+.nav{
+    /* border:1px solid black; */
+    width:58%;
+    height:70px;
+    margin-left:22%;
+    margin-right:30px;
+    margin-top: 20px;
+}
+    /* nav links */
+ul li{
+   display:inline;
+    
+}
+    /* links and anchor tag */
+ul li a{
+    text-decoration: none;
+    margin-left:10px;
+    font-size:17px;
+    color:black;
+    font-weight:600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+    /* links,anchor tag, icon */
+ul li a i{
+    font-size:9px;
+    
+}
+    /* link hover */
+ul li a:hover{
+    cursor:pointer;
+    color:rgb(75, 228, 236);
+}
+    /* search icon */
+.search{
+    margin-left:22px;
+    font-size:17px;
+    border-radius: 22px;
+    padding:13px;
+    margin-top: -7px;
+    background-color: rgb(212, 212, 81);
+    border:none;
+} 
+    
+
+                        /* hero container */
+.container-hero{
+    /* border:1px solid black; */
+    height:30vh;
+    width:55%;
+    margin:auto;
+    margin-top: 30%;
+}
+    /* hero h1 */
+.container-hero h1{
+    color:white;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: white;
+
+}
+    /* hero p */
+.container-hero p{
+    text-align: center;
+    color:white;
+    font-size: 28px;
+    font-weight:800;
+}
+    /* hero buttons and hover */
+.btn{
+    padding:10px 30px;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border:none;
+}
+.one{
+    margin-left: 20%;
+    background-color: #6B2D8F;
+    color:white;
+}
+.one:hover{
+    background-color: white;
+    color:#6B2D8F;
+    font-weight: 500;
+}
+.two{
+    background-color: rgb(222, 222, 13);
+    color:white;
+    font-weight: 500;
+}
+.two:hover{
+    background-color: white;
+    color:#6B2D8F;
+    font-weight: 500;
+}
+.btnthree{
+    padding:10px 30px;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border:none;
+    color:rgb(100, 17, 120);
+    font-weight: 500;
+}
+.btnthree:hover{
+    background-color:rgb(6, 6, 88);
+    color:white;
+    font-weight: 500;
+}
+
+       
+
+                        /* about container */
+.aboutContainer{
+    /* border:1px solid black; */
+    width:100vw;
+    height:65vh;
+    background-color: rgb(243, 247, 251);
+    display:flex;
+    
+}
+.info{
+    /* border:1px solid black; */
+    width:35vw;
+    height:50vh;
+    margin-left: 13%;
+    margin-right: 3%;
+    margin-top: 4%;
+}
+.info h2{
+    color:#6B2D8F;
+    font-size: 32px;
+    font-weight: bold;
+}
+.info h4{
+    color:rgb(20, 198, 207);
+    font-size: 22px;
+    font-weight: 600;
+}
+.info p{
+    font-size: 19px;
+    line-height: 1.6;
+}
+.aboutbtn{
+    padding:10px 35px;
+    font-size: 17px;
+    font-weight: 600;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(203, 206, 34);
+    margin-top: 18px;
+}
+.aboutbtn:hover{
+    background-color: #124f9a;
+    color:white;
+}
+.aboutbtn a{
+    text-decoration: none;
+    color:white;
+}
+.aboutpic{
+    max-width: 100%;
+    max-height: 100%;
+}
+.pic{
+    /* border:1px solid black; */
+    width:35vw;
+    height:50vh;
+    margin-top: 4%;
+    overflow: hidden;
+}
+                                                /* course container */
+.coursecontainer{
+    /* border:1px solid black; */
+    height:82vh;
+    width:100vw;
+    
+}
+.coursecontainer h4{
+    text-align: center;
+    font-size: 22px;
+    color:rgb(59, 220, 220);
+    margin-top: 50px;
+}
+.coursecontainer h2{
+    text-align: center;
+    font-size: 32px;
+    color:#6B2D8F;
+    font-weight: bolder;
+    
+}
+.courses{
+    /* border:1px solid black; */
+    height:65vh;
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: -45px;
+}
+.course1{
+    /* border:1px solid black; */
+    height:45vh;
+    width:23vw;
+    margin-left:175px;
+}
+.course2{
+    /* border:1px solid black; */
+    height:45vh;
+    width:23vw;
+    
+}
+.course3{
+    /* border:1px solid black; */
+    height:45vh;
+    width:23vw;
+    margin-right: 175px;
+    
+}
+.coursepic{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.courseinfo1{
+    /* border:1px solid black; */
+    height:30vh;
+    width:23vw;
+}
+.courseinfo1 h3{
+    font-size: 25px;
+    color:rgb(113, 8, 113);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.courseinfo1 p{
+    font-size: 19px;
+}
+.coursebtn{
+    padding:10px 30px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(203, 206, 34);
+    color:white;
+    margin-top: 15px;
+}
+.coursebtn:hover{
+    background-color: #124f9a;
+    color:white;
+}
+.coursebtn a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.courseinfo2{
+    /* border:1px solid black; */
+    height:30vh;
+    width:23vw;
+}
+.courseinfo2 h3{
+    font-size: 25px;
+    color:rgb(113, 8, 113);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.courseinfo2 p{
+    font-size: 19px;
+}
+
+.courseinfo3{
+    /* border:1px solid black; */
+    height:30vh;
+    width:23vw;
+}
+.courseinfo3 h3{
+    font-size: 25px;
+    color:rgb(113, 8, 113);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.courseinfo3 p{
+    font-size: 19px;
+}
+
+                                /* footer container */
+.footercontainer{
+    /* border:1px solid black; */
+    height:50vh;
+    width:100vw;
+    background-color: #2C1A4D;
+}
+.footerdiv{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.footerinfo1{
+    /* border:1px solid black; */
+    height:28vh;
+    width:18vw;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+.social{
+    display:flex;
+    margin-top: 15px;
+   
+}
+.facebook{
+    /* border:1px solid white; */
+    border-radius: 20px;
+    padding:4px;
+    background-color: rgb(30, 30, 173);
+    
+}
+.social1{
+   color:white;
+}
+.twitter{
+    /* border:1px solid white; */
+    border-radius: 20px;
+    padding:4px;
+    margin-left: 12px;
+    background-color: #34a4eb;
+}
+.social2{
+   color:white;
+}
+.instagram{
+    /* border:1px solid white; */
+    border-radius: 20px;
+    padding:4px;
+    margin-left: 12px;
+    background-color: black;
+}
+.social3{
+   color:white;
+}
+.linkedin{
+    /* border:1px solid white; */
+    border-radius: 20px;
+    padding:4px;
+    margin-left: 12px;
+    background-color: #1b76ab;
+}
+.social4{
+   color:white;
+}
+.youtube{
+    /* border:1px solid white; */
+    border-radius: 20px;
+    padding:4px;
+    margin-left: 12px;
+    background-color: #c40424;
+}
+.social5{
+   color:white;
+}
+.footerinfo2{
+    /* border:1px solid black; */
+    height:28vh;
+    margin-top: 5%;
+    width:18vw;
+}
+.footerinfo3{
+    /* border:1px solid black; */
+    height:28vh;
+    margin-top: 5%;
+    width:18vw;
+}
+.footerinfo4{
+    /* border:1px solid black; */
+    height:28vh;
+    width:18vw;
+    margin-top: 5%;
+    margin-right: 12%;
+}
+.footerinfo1 p{
+    color:white;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.footerinfo2 p{
+    color:rgb(56, 204, 209);
+    font-size: 25px;
+    
+}
+.footerlinks li{
+    display:flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.footerlinks li a{
+    color:white;
+   
+}
+.footerinfo3 p{
+    color:rgb(56, 204, 209);
+    font-size: 25px;
+    margin-left: -30px;
+}
+.footerinfo3 ul li{
+    display:flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-left: -45px;
+    margin-top: 10px;
+}
+.footerinfo3 ul li i{
+    color:rgb(56, 204, 209);
+    font-size: 15px;
+}
+.footerinfo3 ul li a{
+    font-size: 15px;
+    color:white;
+}
+.footerinfo4 p{
+    color:rgb(56, 204, 209);
+    font-size: 25px;
+    
+}
+.footerinfo4 h3{
+    color:white;
+    font-size: 17px;
+}
+
+.footerinfo4 h4{
+    color:rgb(56, 204, 209);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footerline{
+    border:1px solid white;
+    width:80%;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+.copyright{
+    color:white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+
+                                /* responsive design mobile, tablet, desktop */
+
+@media(max-width: 768px){
+    .mainContainer{
+        border:1px solid black;
+        height:70vh;
+        width:100vw;
+        background-image: url(https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg);
+        background-size: cover;
+    }
+    .container-hero h1{
+        color:white;
+        font-weight:bold; 
+        font-size: 30px;
+        text-align: center; 
+        text-shadow: white;
+        margin-top: -55px;
+         
+    }
+    .container-hero p{
+        text-align: center;
+        color:white;
+        font-size: 20px;
+        font-weight:800;
+        margin-top: -10px;
+    }
+    .btn{
+        padding:5px 30px;
+        font-size: 14px;
+        margin-right: 10px;
+        margin-top: 18px;
+        border-radius: 5px;
+        border:none;
+}
+}
+
