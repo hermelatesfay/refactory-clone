@@ -27,44 +27,53 @@
               </div>
 
               <!-- menu items:navigation links -->
-              <div class="nav">
+              <div class="nav" id="nav">
+                <button class="xmark-btn" onclick="hideMenu()">
+                  <i id="menu" class="fa-solid fa-xmark"></i>
+                </button>
                 <ul>
                   <li>
-                    <a href=""
+                    <a href="#"
                       >About US <i class="fa-solid fa-angle-down"></i
                     ></a>
                   </li>
                   <li>
-                    <a href=""
+                    <a href="#"
                       >Courses <i class="fa-solid fa-angle-down"></i
                     ></a>
                   </li>
                   <li>
-                    <a href=""
+                    <a href="#"
                       >Financial Aid <i class="fa-solid fa-angle-down"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="">Tech Talent</a>
+                    <a href="#">Tech Talent</a>
                   </li>
                   <li>
-                    <a href="">Partnerships</a>
+                    <a href="#">Partnerships</a>
                   </li>
                   <li>
-                    <a href="">Stories</a>
+                    <a href="#">Stories</a>
                   </li>
                   <li>
-                    <a href="">Contact</a>
+                    <a href="#">Contact</a>
                   </li>
                   <li>
-                    <a href="">FQAs</a>
+                    <a href="#">FQAs</a>
                   </li>
                   <button class="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                   </button>
                 </ul>
+                
               </div>
+                <button class="bar-btn" onclick="showMenu()">
+                  <i id="bars" class="fa-solid fa-bars"></i>
+                </button>
             </div>
+            
+           
           </nav>
         </header>
 
@@ -182,6 +191,44 @@
       </div>
     </div>
 
+    <!-- Refactory program -->
+    <div class="programContainer">
+      <!-- program information -->
+      <div class="programinfo">
+        <h2>10X Program</h2>
+        <h4>
+          Inclusively Equipping Young Women in Advanced Digital Skills &
+          Connecting Them to Dignified Work
+        </h4>
+        <p>
+          Refactory Academy is empowering young women with relevant tech skills
+          and life-changing opportunities, equipping them to thrive in the
+          digital economy as individuals and as business owners.
+        </p>
+
+        <div class="patternship">
+            <div class="patimg">
+              <img class="progpic" src="images/image8.png" alt="program">
+            </div>
+            <div class="patimg">
+                <img class="progpic" src="images/image6.png" alt="program">
+            </div>
+            <div class="patimg">
+                <img class="progpic" src="images/image7.png" alt="program">
+            </div>
+        </div>
+
+        <button class="progbtn">
+          <a href="">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+        </button>
+      </div>
+
+      <!-- program picture -->
+      <div class="propic">
+        <img class="programpic" src="images/image5.jpg" alt="About" />
+      </div>
+    </div>
+
     <!-- footer -->
     <div class="footercontainer">
       <footer class="footerdiv">
@@ -278,5 +325,19 @@
       <!-- footer copyright -->
       <p class="copyright">&copy 2025 Refactory. All Rights Reserved</p>
     </div>
+
+      <!-- JavaScript for toggle menu -->
+    <script>
+        let nav = document.getElementById("nav");
+        function showMenu()
+        {
+          nav.style.right = "0";
+        }
+
+        function hideMenu()
+        {
+          nav.style.right = "-330px";
+        }
+    </script>
   </body>
 </html>
